@@ -1,0 +1,19 @@
+
+
+
+section {
+    border: solid blue 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 67px;
+background: linear-gradient(145deg, #f2e4e4, #cbc0c0);
+box-shadow:  29px 29px 59px #aca2a2,
+             -29px -29px 59px #ffffff;
+}
+
+body {
+    background-color: bisque;
+    text-align: center
+
+}
+@keyframes 

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css"
     <title>Jono's info</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
             <h2>hi, this is Jonathan Lemarie, here is some little information about me:</h2>
             <p>I am originally from France, Paris, but i moved to Germany almost 7years ago now. Before hand i spent a couple of years in Australia, travelling, working in quite some different jobs i would have never done in a city and enjoying life over there.</p>
             <p>After several years working in the hospitality industry i have desired a change of carrer, hence why i am now learning programming with DCI</p>
-            <p>My hobbies range from watching movies,series, to reading, learning about nature and different cultures including food. go in the nature, lake, forest...</p>
+            <p>My hobbies range from watching movies,series, to reading, learning about nature and different cultures including food. go in the nature, lake, forest... cooking and gardening.</p>
         </section>
         <section>
             <h2>my favorite websites:</h2>
@@ -26,7 +27,28 @@
             </ul>
         </section>
         <section>
-            <h2>My favorite destination</h2>
+            <h2>My favorite destinations</h2>
+            <ul>
+                <li>Ubud in Bali, indonesia.</li>
+                <li>Sintra, Portugal.</li>
+                <li>Margaret River, Australia.</li>
+                <li>Thailand.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Contact me</h2>
+            <form action="/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required=""><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required=""><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="3" cols="40" required=""></textarea><br><br>
+                
+                <input type="submit" value="Submit">
+            </form>
         </section>
     </main>
 </body>
